@@ -11,6 +11,7 @@ body {
     color: white;
     font-size: 16px;
     overflow: hidden;
+    
 }
 
 header {
@@ -65,11 +66,11 @@ section {
 
                 & img {
                     width: 100%;
-                    transform: 
-                    rotate(-30deg);
+                    transform:
+                        rotate(-30deg);
                 }
 
-                &::before{
+                &::before {
                     content: '';
                     position: absolute;
                     background-color: black;
@@ -331,4 +332,5 @@ section {
 
         }
     }
- }
+}
+
